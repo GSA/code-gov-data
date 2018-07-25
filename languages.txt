@@ -17,6 +17,7 @@ Kafka
 Lisp
 m4
 Makefile
+Markdown
 MATLAB
 MongoDB
 MySQL
@@ -32,6 +33,7 @@ Ruby
 Salt
 SAS
 SASS
+Shell
 SourcePawn
 SQL
 SQLite
