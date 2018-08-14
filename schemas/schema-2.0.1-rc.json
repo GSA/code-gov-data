@@ -160,11 +160,11 @@
             "items": {
               "type": "string",
               "enum": [
-                "Unix",
-                "Linux",
-                "Windows",
-                "MacOs",
-                "Other"
+                "unix",
+                "linux",
+                "windows",
+                "macOS",
+                "other"
               ]
             }
           },
