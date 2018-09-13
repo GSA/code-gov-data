@@ -49,7 +49,7 @@
             "description": "The version for this release. For example, '1.0.0'."
           },
           "organization": {
-            "description": "The organization or component within the agency to which the releases listed belong. For example, '18F' or 'Navy'."
+            "description": "The organization or component within the agency to which the releases listed belong. For example, '18F' or 'Navy'.",
             "type": "object",
             "properties": {
               "acronym": {
