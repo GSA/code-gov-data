@@ -4,7 +4,8 @@
   "description": "Data Files used by Code.gov",
   "main": "index.js",
   "scripts": {
-    "build-filters": "node create_filters_data.js"
+    "build-filters": "node create_filters_data.js",
+    "build-task-filter-data": "node create_task_filters_data.js"
   },
   "repository": {
     "type": "git",
