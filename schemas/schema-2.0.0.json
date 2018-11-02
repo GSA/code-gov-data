@@ -111,6 +111,7 @@
           },
           "contact": {
             "type": "object",
+            "description": "Information about contacting the release.",
             "properties": {
               "email": {
                 "type": "string",
