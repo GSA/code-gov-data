@@ -10,6 +10,7 @@
     },
     "measurementType": {
       "type": "object",
+      "description": "An object containing description of the open source measurement method.",
       "properties": {
         "method": {
           "type": "string",
@@ -58,6 +59,7 @@
           },
           "permissions": {
             "type": "object",
+            "description": "An object containing description of the usage/restrictions regarding the release.",
             "properties": {
               "licenses": {
                 "type": ["array", "null"],
