@@ -23,6 +23,12 @@ const sortByName = (a, b) => {
   return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
 }
 
+function getUsageTypes(items) {
+  return [
+    { name: "Open Source", value: 'openSource' },
+    { name: "Government-Wide Reuse", value: 'governmentWideReuse' }
+  ]
+}
 
 function getAgencies(items) {
   const agencies = new Set();
@@ -91,4 +97,4 @@ function getLicenses(repos) {
   return Array.from(licenses).map(JSON.parse).sort(sortByName);
 }
 
-module.exports = { getAgencies, getLanguages, getLicenses, languageKey2Name, licensesKey2Name, sortByName }
+module.exports = { getAgencies, getLanguages, getLicenses, getUsageTypes, languageKey2Name, licensesKey2Name, sortByName }

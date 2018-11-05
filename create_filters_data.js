@@ -1,6 +1,6 @@
 console.log('starting create_filters_data.js');
 
-const { getAgencies, getLanguages, getLicenses, sortByName } = require("./utils")
+const { getAgencies, getLanguages, getLicenses, getUsageTypes, sortByName } = require("./utils")
 
 const { CODE_GOV_API_KEY } = process.env;
 
@@ -20,6 +20,7 @@ async function generate() {
   filters.languages = getLanguages(repos);
   filters.licenses = getLicenses(repos);
   console.log("filters.licenses:", filters.licenses);
+  filters.usageTypes = getUsageTypes(repos);
 
   fs.writeFileSync('filters/all.json', JSON.stringify(filters), 'utf-8');
   Object.keys(filters).forEach(key => {
