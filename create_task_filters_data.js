@@ -40,9 +40,9 @@ async function generate() {
   filters.languages = getLanguages(tasks);
   console.log("filters.languages:", filters.languages);
   filters.skillLevels = [
-    { name: "Small", value: "small" },
-    { name: "Medium", value: "medium" },
-    { name: "Large", value: "large" }
+    { name: "Beginner", value: "beginner" },
+    { name: "Intermediate", value: "intermediate" },
+    { name: "Advanced", value: "advanced" }
   ]
   filters.timeRequired = [
     { name: "Small", value: "small" },
@@ -53,9 +53,9 @@ async function generate() {
 
 
   fs.writeFileSync('filters/tasks.json', JSON.stringify(filters), 'utf-8');
-  Object.keys(filters).forEach(key => {
-    fs.writeFileSync(`filters/${key}.json`, JSON.stringify(filters[key]), 'utf-8');
-  });
+  //Object.keys(filters).forEach(key => {
+  //  fs.writeFileSync(`filters/${key}.json`, JSON.stringify(filters[key]), 'utf-8');
+  //});
 }
 
 generate();
