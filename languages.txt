@@ -29,6 +29,7 @@ PHP
 PL/pgSQL
 PowerShell
 Python
+R
 Ruby
 Salt
 SAS
