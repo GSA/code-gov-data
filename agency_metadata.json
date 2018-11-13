@@ -244,8 +244,8 @@
     "fallback_file": "EPA.json",
     "requirements": {
       "agencyWidePolicy": 1,
-      "openSourceRequirement": 0.5,
-      "inventoryRequirement": 0,
+      "openSourceRequirement": 1.0,
+      "inventoryRequirement": 0.5,
       "schemaFormat": 0.5,
       "overallCompliance": 0
     },
