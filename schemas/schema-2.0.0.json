@@ -190,7 +190,7 @@
           },
           "relatedCode": {
             "type": "array",
-            "description": "An array of affiliated government repositories that may be a part of the same project. For example,  relatedCode for 'code-gov-web' would include 'code-gov-api' and 'code-gov-tools'.",
+            "description": "An array of affiliated government repositories that may be a part of the same project. For example,  relatedCode for 'code-gov-front-end' would include 'code-gov-api' and 'code-gov-api-client'.",
             "items": {
               "type": "object",
               "properties": {
