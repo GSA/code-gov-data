@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Consumer Financial Protection Bureau",
+    "value": "CFPB"
+  },
+  {
+    "name": "Department of Labor",
+    "value": "DOL"
+  },
+  {
+    "name": "General Services Administration",
+    "value": "GSA"
+  },
+  {
+    "name": "National Aeronautics and Space Administration",
+    "value": "NASA"
+  },
+  {
+    "name": "National Security Agency",
+    "value": "NSA"
+  },
+  {
+    "name": "Social Security Administration",
+    "value": "SSA"
+  }
+]

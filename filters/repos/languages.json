@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Assembly",
+    "value": "Assembly"
+  },
+  {
+    "name": "C",
+    "value": "C"
+  },
+  {
+    "name": "C#",
+    "value": "C#"
+  },
+  {
+    "name": "C++",
+    "value": "C++"
+  },
+  {
+    "name": "ColdFusion",
+    "value": "ColdFusion"
+  },
+  {
+    "name": "CSS",
+    "value": "CSS"
+  },
+  {
+    "name": "Docker",
+    "value": "Docker"
+  },
+  {
+    "name": "Fortran",
+    "value": "Fortran"
+  },
+  {
+    "name": "Go",
+    "value": "Go"
+  },
+  {
+    "name": "HTML",
+    "value": "HTML"
+  },
+  {
+    "name": "IDL",
+    "value": "IDL"
+  },
+  {
+    "name": "Java",
+    "value": "Java"
+  },
+  {
+    "name": "JavaScript",
+    "value": "JavaScript"
+  },
+  {
+    "name": "JSON",
+    "value": "JSON"
+  },
+  {
+    "name": "Kafka",
+    "value": "Kafka"
+  },
+  {
+    "name": "m4",
+    "value": "m4"
+  },
+  {
+    "name": "Makefile",
+    "value": "Makefile"
+  },
+  {
+    "name": "Markdown",
+    "value": "Markdown"
+  },
+  {
+    "name": "MATLAB",
+    "value": "MATLAB"
+  },
+  {
+    "name": "MongoDB",
+    "value": "MongoDB"
+  },
+  {
+    "name": "Objective-C",
+    "value": "Objective-C"
+  },
+  {
+    "name": "OpenEdge ABL",
+    "value": "OpenEdge ABL"
+  },
+  {
+    "name": "Oracle PL/SQL",
+    "value": "Oracle PL/SQL"
+  },
+  {
+    "name": "Perl",
+    "value": "Perl"
+  },
+  {
+    "name": "PHP",
+    "value": "PHP"
+  },
+  {
+    "name": "PowerShell",
+    "value": "PowerShell"
+  },
+  {
+    "name": "Python",
+    "value": "Python"
+  },
+  {
+    "name": "R",
+    "value": "R"
+  },
+  {
+    "name": "Ruby",
+    "value": "Ruby"
+  },
+  {
+    "name": "Salt",
+    "value": "Salt"
+  },
+  {
+    "name": "SAS",
+    "value": "SAS"
+  },
+  {
+    "name": "SASS",
+    "value": "SASS"
+  },
+  {
+    "name": "Shell",
+    "value": "Shell"
+  },
+  {
+    "name": "SourcePawn",
+    "value": "SourcePawn"
+  },
+  {
+    "name": "SQL",
+    "value": "SQL"
+  },
+  {
+    "name": "Swift",
+    "value": "Swift"
+  },
+  {
+    "name": "TypeScript",
+    "value": "TypeScript"
+  },
+  {
+    "name": "Visual Basic",
+    "value": "Visual Basic"
+  },
+  {
+    "name": "XML",
+    "value": "XML"
+  }
+]

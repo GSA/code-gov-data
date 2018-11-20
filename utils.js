@@ -53,7 +53,7 @@ function getLanguages(items) {
           const language_in_lower_case = language.toLowerCase();
           if (languageKey2Name.hasOwnProperty(language_in_lower_case)) {
             const proper_name = languageKey2Name[language_in_lower_case];
-            languages.add(JSON.stringify({ 'name': proper_name, 'value': language_in_lower_case }));
+            languages.add(JSON.stringify({ 'name': proper_name, 'value': proper_name }));
           }
         }
       });

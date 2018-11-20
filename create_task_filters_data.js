@@ -52,10 +52,10 @@ async function generate() {
 
 
 
-  fs.writeFileSync('filters/tasks.json', JSON.stringify(filters), 'utf-8');
-  //Object.keys(filters).forEach(key => {
-  //  fs.writeFileSync(`filters/${key}.json`, JSON.stringify(filters[key]), 'utf-8');
-  //});
+  fs.writeFileSync('filters/tasks/all.json', JSON.stringify(filters), 'utf-8');
+  Object.keys(filters).forEach(key => {
+    fs.writeFileSync(`filters/tasks/${key}.json`, JSON.stringify(filters[key], null, 2), 'utf-8');
+  });
 }
 
 generate();

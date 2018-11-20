@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Apache License 2.0",
+    "value": "Apache-2.0"
+  },
+  {
+    "name": "BSD 2-Clause \"Simplified\" License",
+    "value": "BSD-2-Clause"
+  },
+  {
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "value": "BSD-3-Clause"
+  },
+  {
+    "name": "Creative Commons Attribution 4.0 International",
+    "value": "CC-BY-4.0"
+  },
+  {
+    "name": "Creative Commons Zero v1.0 Universal",
+    "value": "CC0-1.0"
+  },
+  {
+    "name": "Eclipse Public License 1.0",
+    "value": "EPL-1.0"
+  },
+  {
+    "name": "GNU Affero General Public License v3.0",
+    "value": "AGPL-3.0"
+  },
+  {
+    "name": "GNU General Public License v2.0 only",
+    "value": "GPL-2.0"
+  },
+  {
+    "name": "GNU General Public License v3.0 only",
+    "value": "GPL-3.0"
+  },
+  {
+    "name": "GNU Lesser General Public License v2.1 only",
+    "value": "LGPL-2.1"
+  },
+  {
+    "name": "GNU Lesser General Public License v3.0 only",
+    "value": "LGPL-3.0"
+  },
+  {
+    "name": "ISC License",
+    "value": "ISC"
+  },
+  {
+    "name": "MIT License",
+    "value": "MIT"
+  },
+  {
+    "name": "Mozilla Public License 2.0",
+    "value": "MPL-2.0"
+  },
+  {
+    "name": "SIL Open Font License 1.1",
+    "value": "OFL-1.1"
+  },
+  {
+    "name": "The Unlicense",
+    "value": "Unlicense"
+  }
+]
