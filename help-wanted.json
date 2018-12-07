@@ -1238,6 +1238,76 @@
       "effort": "small",
       "type": "enhancement",
       "skill": "beginner"
+    },
+    {
+      "id": "Operation Code Challenge - Automated threat sharing",
+      "title": "Operation Code Challenge - Automated threat sharing",
+      "languages": ["Python"],
+      "projectURL": "",
+      "issueURL": "https://github.com/nsacyber/WALKOFF/issues/204",
+      "agency": {
+        "name": "National Security Agency",
+        "acronym": "NSA"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "beginner"
+    },
+    {
+      "id": "Operation Code Challenge - Methods of remediation",
+      "title": "Operation Code Challenge - Methods of remediation",
+      "languages": ["Python"],
+      "projectURL": "",
+      "issueURL": "https://github.com/nsacyber/WALKOFF/issues/203",
+      "agency": {
+        "name": "National Security Agency",
+        "acronym": "NSA"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Operation Code Challenge - Behavioral Analysis",
+      "title": "Operation Code Challenge - Behavioral Analysis",
+      "languages": ["Python"],
+      "projectURL": "",
+      "issueURL": "https://github.com/nsacyber/WALKOFF/issues/202",
+      "agency": {
+        "name": "National Security Agency",
+        "acronym": "NSA"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "advanced"
+    },
+    {
+      "id": "Operation Code Challenge - Network setup and Configuration",
+      "title": "Operation Code Challenge - Network setup and Configuration",
+      "languages": ["Python"],
+      "projectURL": "",
+      "issueURL": "https://github.com/nsacyber/WALKOFF/issues/201",
+      "agency": {
+        "name": "National Security Agency",
+        "acronym": "NSA"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Operation Code Challenge - Cyber Security Threat Model",
+      "title": "Operation Code Challenge - Cyber Security Threat Model",
+      "languages": ["Python"],
+      "projectURL": "",
+      "issueURL": "https://github.com/nsacyber/WALKOFF/issues/200",
+      "agency": {
+        "name": "National Security Agency",
+        "acronym": "NSA"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "advanced"
     }
   ]
 }
