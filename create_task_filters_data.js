@@ -8,7 +8,7 @@ const fs = require('fs');
 
 async function getTasks() {
   return new Promise((resolve, reject) => {
-    data = JSON.parse(fs.readFileSync('./help-wanted.json'))
+    const data = JSON.parse(fs.readFileSync('./help-wanted.json'))
     resolve(data.items)
   });
 }

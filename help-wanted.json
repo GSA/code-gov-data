@@ -1,743 +1,854 @@
 {
-  "items": [{
-      "id": 1,
-      "title": "Labor Hours Estimation for Code.gov Open Source Repositories",
-      "description": "Issue Description:\nThis task supports the Code.gov team. We want to estimate total lines of code and total hours and costs for the code that is located in all of our open source repositories. The open source repositories are listed in the agency json files as shown on Code.gov.\n\nSpecific tasks:\n\nCount total lines of code for all open source repos on Code.gov using CLOC - https://github.com/AlDanial/cloc.\nDetermine labor hours and costs of total lines of code using the COCOMO II Model - http://csse.usc.edu/tools/cocomoii.php. Parameters TBD and can work with me (Joe Castle) on this.\nProvide all of this in a program/script that can be run on a regular basis to account for new code as it is added to Code.gov\nContact Info:\nName: Joseph Castle\nEmail: joseph.castle@gsa.gov",
+  "total": 41,
+  "items": [
+    {
+      "id": "prefooter_content_on_blog_has_inconsistent_left_right_spacing",
+      "title": "Prefooter content on blog has inconsistent left/right spacing",
       "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
+        "CSS"
       ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "impact": "Open Government",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_code_gov",
-      "issueURL": "https://github.com/GSA/code-gov-web/issues/416",
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/3123",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "CC0-1.0",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
       },
       "date": {
-        "lastModified": "2018-01-23T03:11:00Z"
+        "lastModified": "2018-04-18T21:52:38Z"
+      },
+      "effort": "medium",
+      "skill": "intermediate"
+    },
+    {
+      "id": "wagtail_image_text_25_75_requires_alt_image_tag_twice",
+      "title": "Wagtail: image and text 25/75 requires alt image tag twice",
+      "languages": [
+        "Python"
+      ],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/2853",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-18T20:45:37Z"
+      },
+      "effort": "medium",
+      "skill": "advanced"
+    },
+    {
+      "id": "wagtail_admin_padded_zeros_on_event_zipcodes",
+      "title": "Wagtail Admin: Padded zeros on event zipcodes",
+      "languages": [
+        "CSS"
+      ],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/1842",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-19T13:58:54Z"
+      },
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "align_readme_with_updated_os_project_template",
+      "title": "Align readme with updated OS project template",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/409",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-18T21:48:33Z"
+      },
+      "effort": "small",
+      "skill": "beginner"
+    },
+    {
+      "id": "add_sub_navigation_option_for_sidenav",
+      "title": "Add sub navigation option for sidenav",
+      "languages": [
+        "HTML",
+        "CSS",
+        "SCSS"
+      ],
+      "projectURL": "https://code.gov/projects/gsa_18f_uswds_jekyll",
+      "issueURL": "https://github.com/18F/uswds-jekyll/issues/55",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-06-06T15:15:21Z"
+      },
+      "effort": "large",
+      "impact": "open",
+      "type": "enhancement",
+      "skill": "advanced"
+    },
+    {
+      "id": "check_email_link_text_color",
+      "title": "Check email link text color",
+      "languages": ["CSS"],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/234",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Department of Defense",
+        "acronym": "DOD"
+      },
+      "date": {
+        "lastModified": "2018-10-30T00:47:44Z"
+      },
+      "effort": "small",
+      "type": "bug",
+      "skill": "beginner"
+    },
+    {
+      "id": "add_featured_code_projects_above_fold_on_homepage",
+      "title": "Add featured code projects \"above the fold\" on homepage",
+      "languages": ["Jekyll", "HTML"],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/140",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Department of Defense",
+        "acronym": "DOD"
+      },
+      "date": {
+        "lastModified": "2018-10-01T17:55:02Z"
+      },
+      "effort": "medium",
+      "type": "content",
+      "skill": "beginner"
+    },
+    {
+      "id": "document_snyk_usage",
+      "title": "Document snyk usage",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/3576",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-20T18:36:10Z"
       }
     },
     {
-      "id": 2,
+      "id": "email_signup_abbr_wonky_with_defaults",
+      "title": "Email signup abbr and wonky with defaults",
+      "languages": ["Python", "HTML"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/3233",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-19T15:10:39Z"
+      },
+      "effort": "medium",
+      "skill": "intermediate"
+    },
+    {
+      "id": "compress_images_uploaded_by_wagtail",
+      "title": "Compress images uploaded by Wagtail",
+      "languages": ["Python"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/2194",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-18T21:05:25Z"
+      },
+      "effort": "medium",
+      "skill": "intermediate"
+    },
+    {
+      "id": "add_footer_variations_for_slim_big",
       "title": "Add footer variations for slim and big",
-      "description": "Currently we have the option of setting the header type in the header.yml file. I think it would be nice to be able to set the footer type as well between slim, medium, and big in the footer.yml file. At the moment the default footer is medium.",
-      "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "impact": "Open Government",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_18f_uswds_jekyll",
+      "languages": ["CSS", "Jekyll"],
+      "projectURL": "https://code.gov/projects/gsa_18f_uswds_jekyll",
       "issueURL": "https://github.com/18F/uswds-jekyll/issues/53",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "CC0-1.0",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "General Services Administration",
+        "acronym": "GSA"
       },
       "date": {
-        "lastModified": "2018-03-01"
-      }
+        "lastModified": "2018-10-04T11:46:11Z"
+      },
+      "effort": "large",
+      "impact": "open",
+      "type": "enhancement",
+      "skill": "intermediate"
     },
     {
-      "id": 3,
-      "title": "Allow rename during duplicate",
-      "description": "It would be nice to give the opportunity to rename when creating the copy, rather than having to create the copy and then go into properties to edit the name.",
-      "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_open_mission_control_web_open_mct_web_",
-      "issueURL": "https://github.com/nasa/openmct/issues/604",
+      "id": "tfs_support",
+      "title": "TFS support",
+      "languages": ["Python"],
+      "projectURL": "https://code.gov/projects/doe_lawrence_livermore_national_laboratory_llnl_scraper",
+      "issueURL": "https://github.com/LLNL/scraper/issues/23",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "Apache License, Version 2.0",
+      "license": null,
       "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
+        "name": "Department of Energy",
+        "acronym": "DOE"
       },
       "date": {
-        "lastModified": "2017-10-24"
+        "lastModified": "2018-11-19T21:37:29Z"
       }
     },
     {
-      "id": 4,
-      "title": "Add 'Create..' Option to create object inside other object.",
-      "description": "It should be possible for a user to right click on an object in the tree view and select 'create...' to create an object inside of that object. This option should not exist for objects that do not have composition.",
-      "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_open_mission_control_web_open_mct_web_",
-      "issueURL": "https://github.com/nasa/openmct/issues/354",
+      "id": "project_validation",
+      "title": "Project Validation",
+      "languages": ["CSS", "HTML", "JavaScript", "Jekyll"],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/186",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "Apache License, Version 2.0",
+      "license": null,
       "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
+        "name": "Department of Defense",
+        "acronym": "DOD"
       },
       "date": {
-        "lastModified": "2017-12-13"
-      }
+        "lastModified": "2018-06-22T20:30:21Z"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
     },
     {
-      "id": 5,
-      "title": "Remove action is available for non-editable objects",
-      "description": "Attempting to use the action fails as expected, but it probably shouldn't be available in the first place. This is evident in the live demo. Navigate to a non-editable layout (eg. anything under 'demo objects'). The context menu on any of the objects in the layout includes the remove action.",
-      "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Bug",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_open_mission_control_web_open_mct_web_",
-      "issueURL": "https://github.com/nasa/openmct/issues/1542",
+      "id": "update_favicon_code",
+      "title": "Update favicon code",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/3662",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "Apache License, Version 2.0",
+      "license": null,
       "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
       },
       "date": {
-        "lastModified": "2018-1-10"
-      }
-    },
-    {
-      "id": 6,
-      "title": "Timers aren't visually indicating countdown or countup",
-      "description": "Timers should display + or - depending on whether they are counting up or down. This is a regression error, they used to do this.",
-      "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Bug",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_open_mission_control_web_open_mct_web_",
-      "issueURL": "https://github.com/nasa/openmct/issues/1895",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "Apache License, Version 2.0",
-      "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
+        "lastModified": "2018-04-18T20:35:00Z"
       },
-      "date": {
-        "lastModified": "2018-1-29"
-      }
+      "type": "enhancement",
+      "skill": "beginner"
     },
     {
-      "id": 7,
-      "title": "Various error messages in tables",
-      "description": "The table component can sometimes produce various errors when the view changes (eg. on save, on navigation away etc.).",
-      "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Bug",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_open_mission_control_web_open_mct_web_",
-      "issueURL": "https://github.com/nasa/openmct/issues/1884",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "Apache License, Version 2.0",
-      "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
-      },
-      "date": {
-        "lastModified": "2018-1-19"
-      }
-    },
-    {
-      "id": 8,
-      "title": "Y Axis disappears when deeply zoomed",
-      "description": "Steps to reproduce:Create a plot containing a telemetry element, Zoom in on data repeatedly, looking at Y-Axis, Observe: Eventually Y Axis disappears and a console error is shown",
-      "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Bug",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_open_mission_control_web_open_mct_web_",
-      "issueURL": "https://github.com/nasa/openmct/issues/1879",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "Apache License, Version 2.0",
-      "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
-      },
-      "date": {
-        "lastModified": "2018-1-16"
-      }
-    },
-    {
-      "id": 9,
-      "title": "Allow Angular components as Interfaces",
-      "description": "Currently Interfaces are limited to relatively simple JS (or whatever plugin libraries are loaded by the interface). It would be very nice to be able to just add an additional component and somehow load it into the main module (or add in a new app module just for this), so interface developers can utilize Angular functionality to make writing interfaces easier (and better utilize our apis).",
-      "languages": [
-        "Python",
-        "Angular"
-      ],
-      "skill": "Advanced",
-      "effort": "Large",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NSA/repos/nsa_walkoff",
-      "issueURL": "https://github.com/iadgov/WALKOFF/issues/181",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "CC0 1.0 Universal License",
-      "agency": {
-        "acronym": "NSA",
-        "name": "National Security Agency"
-      },
-      "date": {
-        "lastModified": "2018-2-8"
-      }
-    },
-    {
-      "id": 10,
-      "title": "Split up the App API JSON Schema into multiple files",
-      "description": "Currently the App API JSON Schema in data/walkoff_schema.json is about 1000 lines long and is getting a bit bloated and hand to maintain. It would be better if it is split up into manageable files and placed in its own directory inside data. This should only involve using the {'#ref' : '../path/to/new/file'} feature of JSON schemas (see this issue here: Julian/jsonschema#98). This may also involve a teak in core.config.config depending on the reference resolver being used and possibly a change to core.config.paths if the path to the schema changes.",
-      "languages": [
-        "Python",
-        "Angular"
-      ],
-      "skill": "Beginner",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NSA/repos/nsa_walkoff",
-      "issueURL": "https://github.com/iadgov/WALKOFF/issues/171",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "CC0 1.0 Universal License",
-      "agency": {
-        "acronym": "NSA",
-        "name": "National Security Agency"
-      },
-      "date": {
-        "lastModified": "2018-2-8"
-      }
-    },
-    {
-      "id": 11,
-      "title": "client-side dependency installation support for interfaces",
-      "description": "Currently, there is no clean way to install client dependencies for custom interfaces. If the install_dependencies.py script could look for a package.json file in the interfaces and run npm install in that directory, then this issue would be resolved",
-      "languages": [
-        "Python",
-        "Angular"
-      ],
-      "skill": "Beginner",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NSA/repos/nsa_walkoff",
-      "issueURL": "https://github.com/iadgov/WALKOFF/issues/168",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "CC0 1.0 Universal License",
-      "agency": {
-        "acronym": "NSA",
-        "name": "National Security Agency"
-      },
-      "date": {
-        "lastModified": "2017-2-8"
-      }
-    },
-    {
-      "id": 12,
-      "title": "requirements.txt support in custom interfaces",
-      "description": "Custom interfaces may require additional dependencies, but currently, there is no straightforward mechanism to install them like there is for app dependencies. The install dependencies script could be modified to install dependencies for apps as well as interfaces",
-      "languages": [
-        "Python",
-        "Angular"
-      ],
-      "skill": "Beginner",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NSA/repos/nsa_walkoff",
-      "issueURL": "https://github.com/iadgov/WALKOFF/issues/167",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "CC0 1.0 Universal License",
-      "agency": {
-        "acronym": "NSA",
-        "name": "National Security Agency"
-      },
-      "date": {
-        "lastModified": "2018-2-8"
-      }
-    },
-    {
-      "id": 13,
-      "title": "Request: parameter to start on a specific module",
-      "description": "We would love to be able to create bookmarklets that take us directly to a specific module, like Tables or Links. We have a set of bookmarklets shared by the team, organized by what they're used for, so it would be great to point someone directly to a specific module. We would love a parameter we can pass in the URL that selects the starting module.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/SSA/repos/ssa_accessible_name_description_inspector",
-      "issueURL": "https://github.com/SSAgov/ANDI/issues/2",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "Apache License, Version 2.0",
-      "agency": {
-        "acronym": "SSA",
-        "name": "Social Security Administration"
-      },
-      "date": {
-        "lastModified": "2018-2-14"
-      }
-    },
-    {
-      "id": 14,
-      "title": "Double border in footer links at mobile",
-      "description": "When at mobile size the links in the footer stack on top of each other. Since it's three columns at desktop sizes, the three stacked columns end up with double borders between each stacked column. This is visible after the 'Open Government' and 'Tribal' link.",
-      "languages": [
-        "Python",
-        "Django"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Bug",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/CFPB/repos/cfpb_cfgov_refresh",
-      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/3575",
-      "featured": true,
-      "active": true,
-      "popular": true,
-      "license": "CC0 1.0 Universal License",
-      "agency": {
-        "acronym": "CFPB",
-        "name": "Consumer Financial Protection Bureau"
-      },
-      "date": {
-        "lastModified": "2018-4-18"
-      }
-    },
-    {
-      "id": 15,
+      "id": "sauce_window_dimensions_are_not_being_set",
       "title": "Sauce window dimensions are not being set",
-      "description": "Running tests on sauce shows up undefined,undefinedpx because this reference does not exist anymore https://github.com/cfpb/cfgov-refresh/blob/master/test/browser_tests/conf.js#L169-L170.",
-      "languages": [
-        "Python",
-        "Django"
-      ],
-      "skill": "Beginner",
-      "effort": "Large",
-      "type": "Bug",
-      "impact": "Open Government",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/CFPB/repos/cfpb_cfgov_refresh",
+      "languages": ["Python"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
       "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/3527",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "CC0 1.0 Universal License",
+      "license": null,
       "agency": {
-        "acronym": "CFPB",
-        "name": "Consumer Financial Protection Bureau"
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
       },
       "date": {
-        "lastModified": "2018-4-18"
-      }
+        "lastModified": "2018-09-20T21:29:38Z"
+      },
+      "effort": "large",
+      "type": "bug",
+      "skill": "beginner"
     },
     {
-      "id": 16,
-      "title": "State OR Region?",
-      "description": "As currently designed, the site lets me think I can search for, say, schools in Virginia in the region of New England. Seems to me if I choose a state, the site should eliminate region as an additional option.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Beginner",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/ED/repos/ed_college_scorecard",
-      "issueURL": "https://github.com/RTICWDT/college-scorecard/issues/1640",
+      "id": "allow_linting_individual_files",
+      "title": "Allow linting of individual files",
+      "languages": ["Python"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/584",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "CC0 1.0 Universal License",
+      "license": null,
       "agency": {
-        "acronym": "Department of Education"
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
       },
       "date": {
-        "lastModified": "2017-9-28"
-      }
+        "lastModified": "2018-04-18T21:44:26Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "intermediate"
     },
     {
-      "id": 17,
-      "title": "AnnotationAttributes interface alignment",
-      "description": "Evaluate AnnotationAttributes in light of the patterns established by ShapeAttributes and PlacemarkAttributes. Identify and resolve inconsistent patterns. We know of one property that breaks with the established attributes convention: AnnotationAttributes.opacity. This value is expressed in the attributes' alpha channel.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_webworldwind",
-      "issueURL": "https://github.com/NASAWorldWind/WebWorldWind/issues/473",
+      "id": "event_filter_date_range_is_too_rigid",
+      "title": "Event filter date range is too rigid",
+      "languages": ["Python"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/2637",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "Apache License Version 2.0",
+      "license": null,
       "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
       },
       "date": {
-        "lastModified": "2018-3-19"
-      }
+        "lastModified": "2018-04-18T20:11:14Z"
+      },
+      "effort": "medium",
+      "skill": "beginner"
     },
     {
-      "id": 18,
-      "title": "TectonicPlatesLayer plate geometries are drawn incorrectly",
-      "description": "The TectonicPlatesLayer plate geometries are drawn with SurfacePolygon, yet the source geometry for each plate is a WKT LineString. The geometry should be drawn with SurfacePolyline.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Bug",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_webworldwind",
-      "issueURL": "https://github.com/NASAWorldWind/WebWorldWind/issues/453",
+      "id": "update_eslint_settings_for_consistent_bracket_handling",
+      "title": "Update ESLint settings for consistent bracket handling",
+      "languages": ["JavaScript"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/1150",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "Apache License Version 2.0",
+      "license": null,
       "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
       },
       "date": {
-        "lastModified": "2018-3-9"
-      }
+        "lastModified": "2018-04-18T21:19:06Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
     },
     {
-      "id": 19,
-      "title": "Add a method for cleanly unregistering window controllers",
-      "description": "With the new controller design, apps have the freedom to replace the default BasicWorldWindController with one of their own choosing. However, replacing the controller will currently leave dangling GestureRecognizer references (and perhaps others) hanging around, so we need to add a method of gracefully unregistering a controller and registering a new one that does proper clean up.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/NASA/repos/nasa_arc_webworldwind",
-      "issueURL": "https://github.com/NASAWorldWind/WebWorldWind/issues/437",
+      "id": "footer_email_reference",
+      "title": "Footer Email Reference",
+      "languages": ["Jekyll"],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/235",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "Apache License Version 2.0",
+      "license": null,
       "agency": {
-        "acronym": "NASA",
-        "name": "National Aeronautics and Space Administration"
+        "name": "Department of Defense",
+        "acronym": "DOD"
       },
       "date": {
-        "lastModified": "2018-3-9"
-      }
+        "lastModified": "2018-10-30T00:47:44Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
     },
     {
-      "id": 20,
-      "title": "Make site run faster",
-      "description": "The site is taking 12 seconds to build which makes it really time consuming to work on. It's loading all fractal components on every update which seem to be taking most of the time. Is it possible to only load them incrementally when that component has changed?",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_18f_web_design_standards",
-      "issueURL": "https://github.com/uswds/uswds-site/issues/417",
+      "id": "allow_project_owners_to_submit_projects_for_code_inventory_file",
+      "title": "Allow Project Owners to submit projects for code inventory file",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/231",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "MIT license",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "Department of Defense",
+        "acronym": "DOD"
       },
       "date": {
-        "lastModified": "2017-10-13"
-      }
+        "lastModified": "2018-10-30T00:47:44Z"
+      },
+      "effort": "large",
+      "type": "enhancement",
+      "skill": "advanced"
     },
     {
-      "id": 21,
-      "title": "[Grid]: 7/12 and 5/12 column bug",
-      "description": "When using these columns, it doesn't work bc the last column has right margin so it drops to the next line, bc the width exceeds the usa-grid space.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Bug",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_18f_web_design_standards",
-      "issueURL": "https://github.com/uswds/uswds/issues/1955",
+      "id": "add_help_wanted_instructions_to_site",
+      "title": "Add \"help wanted\" instructions to site",
+      "languages": ["CSS", "HTML", "Jekyll"],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/180",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "MIT license",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "Department of Defense",
+        "acronym": "DOD"
       },
       "date": {
-        "lastModified": "2018-3-2"
-      }
+        "lastModified": "2018-10-09T13:22:46Z"
+      },
+      "effort": "small",
+      "type": "content",
+      "skill": "beginner"
     },
     {
-      "id": 22,
-      "title": "Radio buttons mis-aligned when in an element with overflow-y: scroll",
-      "description": "Because the input for radio buttons are position: absolute, they do not scroll with the labels that follow them when inside an element that has overflow: scroll set. The end result is that once you've scrolled down within such an element, clicking on the visible labels triggers a click on the incorrect invisible input, which hasn't scrolled due to being position: absolute.\n\n(I recognize that overflow scroll is generally not preferred, but in a web application context we have a constraint that may require its use.)\n\nI believe a simple fix would be to add position: relative to one of the suggested ancestors of radio inputs. From the sample code in the docs, it looks like that might be .usa-fieldset-inputs, though I'm not sure if that would have any unintended side effects.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Bug",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_18f_web_design_standards",
-      "issueURL": "https://github.com/uswds/uswds/issues/1881",
+      "id": "design_a_code_mil_logo",
+      "title": "Design a Code.mil logo",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/147",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "MIT license",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "Department of Defense",
+        "acronym": "DOD"
       },
       "date": {
-        "lastModified": "2018-3-2"
-      }
+        "lastModified": "2018-11-29T02:41:14Z"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "beginner"
     },
     {
-      "id": 23,
-      "title": "Remove explicit display values around aria-hidden",
-      "description": "We currently use the Sass mixin accessibly-hidden to display: none; when aria-hidden is set to true. Adding display values to the aria-hidden attribute is discouraged. We need to remove this mixing and replace by using either the hidden attribute or class names to define display properties.\n\nSee the following article for further guidance and information:\n\nhttps://www.paciellogroup.com/blog/2012/05/html5-accessibility-chops-hidden-and-aria-hidden/",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_18f_web_design_standards",
-      "issueURL": "https://github.com/uswds/uswds/issues/1513",
+      "id": "combine_data_update_with_repo_update",
+      "title": "Combine data update with repo update",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/doe_lawrence_livermore_national_laboratory_llnl_llnl_software_catalog",
+      "issueURL": "https://github.com/LLNL/llnl.github.io/issues/82",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "MIT license",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "Department of Energy",
+        "acronym": "DOE"
       },
       "date": {
-        "lastModified": "2018-3-20"
+        "lastModified": "2018-05-03T20:08:16Z"
       }
     },
     {
-      "id": 24,
-      "title": "Checkbox hidden when label & input order flipped",
-      "description": "I'm generating forms with Django and the default format that is rendered has <label> followed by <input> which works beautifully with textfields but not so with checkboxes. The label shows up but the checkbox is hidden. The only way I can make it show up is to write a custom form only to flip the order of those elements to match your documentation.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_18f_web_design_standards",
-      "issueURL": "https://github.com/uswds/uswds/issues/1071",
+      "id": "improve_graphs_visuals_in_tock",
+      "title": "Improve the graphs/visuals in Tock",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/gsa_18f_tock",
+      "issueURL": "https://github.com/18F/tock/issues/706",
       "featured": true,
       "active": true,
       "popular": true,
-      "license": "MIT license",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "General Services Administration",
+        "acronym": "GSA"
       },
       "date": {
-        "lastModified": "2018-2-19"
+        "lastModified": "2018-10-24T19:24:19Z"
       }
     },
     {
-      "id": 25,
-      "title": "Create Visualizations of Data from API",
-      "description": "Expected Behavior\nCreate cool data visualizations of the data from the API.\nCurrent Behavior\nHere's some examples:\nhttps://beta.observablehq.com/@danieljdufour/python-vs-ruby-number-of-projects-on-code-gov\nhttps://beta.observablehq.com/@danieljdufour/top-10-languages-of-projects-on-code-gov\nPossible Solution\nCreate a data visualization using D3 or any library you might like.",
-      "languages": [
-        "JavaScript"
-      ],
-      "skill": "Intermediate",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_code_gov_api",
-      "issueURL": "https://github.com/GSA/code-gov-api/issues/198",
+      "id": "snippet_list_tags_is_required_but_not_designated_as_so_with_an_asterisk",
+      "title": "Snippet List: Tags is required, but not designated as so with an asterisk",
+      "languages": ["HTML", "Python"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/3244",
       "featured": true,
+      "active": true,
       "popular": true,
-      "license": "CC0-1.0",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
       },
       "date": {
-        "lastModified": "2018-03-02"
+        "lastModified": "2018-04-19T15:10:19Z"
+      },
+      "effort": "medium",
+      "skill": "intermediate"
+    },
+    {
+      "id": "your_money_your_goals_menu_broken_in_ie",
+      "title": "Your Money, Your Goals menu broken in IE",
+      "languages": ["JavaScript"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/2979",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-18T20:41:51Z"
+      },
+      "effort": "medium",
+      "type": "bug",
+      "skill": "intermediate"
+    },
+    {
+      "id": "event_filter_multiselect_is_broken",
+      "title": "Event filter multiselect is broken",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/2636",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-18T20:47:29Z"
+      },
+      "effort": "medium",
+      "type": "bug",
+      "skill": "intermediate"
+    },
+    {
+      "id": "add_th_cells_to_activity_log",
+      "title": "Add th cells to Activity Log",
+      "languages": ["CSS", "HTML"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/977",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-18T21:24:06Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
+    },
+    {
+      "id": "a11y_enhancements_multiselect",
+      "title": "a11y enhancements of the multiselect",
+      "languages": ["HTML"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/1350",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-19T16:08:33Z"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "add_documentation_on_how_to_do_good_oss_documentation",
+      "title": "Add documentation on how to do good OSS documentation",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/240",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Department of Defense",
+        "acronym": "DOD"
+      },
+      "date": {
+        "lastModified": "2018-10-30T00:47:44Z"
+      },
+      "effort": "small",
+      "type": "content",
+      "skill": "beginner"
+    },
+    {
+      "id": "add_spacing_for_multiple_logos_in_footer_",
+      "title": "Add spacing for multiple logos in footer ",
+      "languages": ["CSS", "HTML", "Jekyll"],
+      "projectURL": "https://code.gov/projects/gsa_18f_uswds_jekyll",
+      "issueURL": "https://github.com/18F/uswds-jekyll/issues/127",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-03-02T21:37:26Z"
+      },
+      "effort": "small",
+      "impact": "open",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "in_contact_phone_is_fax_should_apply_to_each_number_not_all_numbers_",
+      "title": "In Contact \u003e Phone, is_fax should apply to EACH number not ALL numbers.",
+      "languages": ["Python"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/3213",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-19T15:11:56Z"
+      },
+      "effort": "medium",
+      "skill": "intermediate"
+    },
+    {
+      "id": "homepage_automate_percentage_timely_responses_to_match_consumer_complaint_database_landing",
+      "title": "Homepage: Automate percentage of timely responses to match the Consumer Complaint Database landing",
+      "languages": ["Python"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/2079",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-19T14:15:31Z"
+      },
+      "effort": "large",
+      "type": "enhancement",
+      "skill": "advanced"
+    },
+    {
+      "id": "event_comma_included_in_street_address_span_leading_to_weird_wrapping",
+      "title": "Event: Comma included in street address span, leading to weird wrapping",
+      "languages": ["CSS", "HTML", "Python"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/848",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-18T21:28:41Z"
+      },
+      "effort": "small",
+      "type": "bug",
+      "skill": "beginner"
+    },
+    {
+      "id": "load_page_specific_styles_separate_from_global_styles",
+      "title": "Load page-specific styles separate from global styles",
+      "languages": ["CSS"],
+      "projectURL": "https://code.gov/projects/cfpb_cfgov_refresh",
+      "issueURL": "https://github.com/cfpb/cfgov-refresh/issues/253",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB"
+      },
+      "date": {
+        "lastModified": "2018-04-18T21:50:04Z"
+      },
+      "effort": "large",
+      "skill": "advanced"
+    },
+    {
+      "id": "have_a_user_friendly_project_inventory",
+      "title": "Have a user-friendly project inventory",
+      "languages": ["HTML", "Jekyll"],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/241",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Department of Defense",
+        "acronym": "DOD"
+      },
+      "date": {
+        "lastModified": "2018-10-30T00:47:44Z"
+      },
+      "effort": "large",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "add_dds_mil_website_to_inventory",
+      "title": "Add DDS.mil website to inventory",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/245",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Department of Defense",
+        "acronym": "DOD"
+      },
+      "date": {
+        "lastModified": "2018-10-30T00:47:21Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
+    },
+    {
+      "id": "update_issue_pull_request_templates",
+      "title": "Update Issue and Pull Request templates",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/dod_dds_code_mil",
+      "issueURL": "https://github.com/Code-dot-mil/code.mil/issues/221",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Department of Defense",
+        "acronym": "DOD"
+      },
+      "date": {
+        "lastModified": "2018-10-30T00:47:43Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
+    },
+    {
+      "id": "embed_twitter_feed_on_news_page",
+      "title": "Embed Twitter feed on News page",
+      "languages": ["HTML", "JavaScript"],
+      "projectURL": "https://code.gov/projects/doe_lawrence_livermore_national_laboratory_llnl_llnl_software_catalog",
+      "issueURL": "https://github.com/LLNL/llnl.github.io/issues/103",
+      "featured": true,
+      "active": true,
+      "popular": true,
+      "license": null,
+      "agency": {
+        "name": "Department of Energy",
+        "acronym": "DOE"
+      },
+      "date": {
+        "lastModified": "2018-12-05T18:36:38Z"
       }
     },
     {
-      "id": 26,
-      "title": "Fix Repo Component Tests",
-      "description": "This is really important to us. Fixing this would help use deploy features more quickly and with more confidence.",
-      "languages": [
-        "TypeScript"
-      ],
-      "skill": "Advanced",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_code_gov",
-      "issueURL": "https://github.com/GSA/code-gov-web/issues/473",
+      "id": "update_inventory_creator_script_to_only_collect_metadata_on_gsa_code_repos",
+      "title": "Update inventory creator script to only collect metadata on GSA code repos",
+      "languages": ["Ruby"],
+      "projectURL": "https://code.gov/projects/gsa_gsa_codeinventory",
+      "issueURL": "https://github.com/GSA/codeinventory/issues/6",
       "featured": true,
+      "active": true,
       "popular": true,
-      "license": "CC0-1.0",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "General Services Administration",
+        "acronym": "GSA"
       },
       "date": {
-        "lastModified": "2018-03-02"
-      }
+        "lastModified": "2018-02-02T16:22:11Z"
+      },
+      "effort": "small",
+      "impact": "open",
+      "skill": "intermediate"
     },
     {
-      "id": 27,
-      "title": "Fix Agency Page Tests",
-      "description": "This is really important to us. Fixing this would help use deploy features more quickly and with more confidence.",
-      "languages": [
-        "TypeScript"
-      ],
-      "skill": "Advanced",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_code_gov",
-      "issueURL": "https://github.com/GSA/code-gov-web/issues/472",
+      "id": "add_optional_logo_to_header_yml",
+      "title": "Add optional logo to header.yml",
+      "languages": [],
+      "projectURL": "https://code.gov/projects/gsa_18f_uswds_jekyll",
+      "issueURL": "https://github.com/18F/uswds-jekyll/issues/124",
       "featured": true,
+      "active": true,
       "popular": true,
-      "license": "CC0-1.0",
+      "license": null,
       "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "name": "General Services Administration",
+        "acronym": "GSA"
       },
       "date": {
-        "lastModified": "2018-03-02"
-      }
-    },
-    {
-      "id": 28,
-      "title": "Fix Autocomplete-Result Test",
-      "description": "This is really important to us. Fixing this would help use deploy features more quickly and with more confidence.",
-      "languages": [
-        "TypeScript"
-      ],
-      "skill": "Advanced",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_code_gov",
-      "issueURL": "https://github.com/GSA/code-gov-web/issues/471",
-      "featured": true,
-      "popular": true,
-      "license": "CC0-1.0",
-      "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
+        "lastModified": "2018-03-02T19:49:09Z"
       },
-      "date": {
-        "lastModified": "2018-03-02"
-      }
-    },
-    {
-      "id": 29,
-      "title": "Search Bar: Pressing down/up arrow on keyboard should move through suggested search options",
-      "description": "When I press the down/up arrow keys I should be able to select the available suggested search options",
-      "languages": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ],
-      "skill": "Beginner",
-      "effort": "Small",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/GSA/repos/gsa_code_gov",
-      "issueURL": "https://github.com/GSA/code-gov-web/issues/492",
-      "featured": true,
-      "popular": true,
-      "license": "CC0-1.0",
-      "agency": {
-        "acronym": "GSA",
-        "name": "General Services Administration"
-      },
-      "date": {
-        "lastModified": "2018-03-07"
-      }
-    },
-    {
-      "id": 30,
-      "title": "Update for Quarry release",
-      "description": "Update SDK for DOL's v2 API",
-      "languages": [
-        "PHP"
-      ],
-      "skill": "Intermediate",
-      "effort": "Medium",
-      "type": "Enhancement",
-      "projectURL": "https://code.gov/#!/explore-code/agencies/DOL/repos/dol_ocio_php_doldatasdk",
-      "issueURL": "https://github.com/USDepartmentofLabor/PHP_DOLDataSDK/issues/1",
-      "featured": true,
-      "popular": true,
-      "license": "Public Domain",
-      "agency": {
-        "acronym": "DOL",
-        "name": "Department of Labor"
-      },
-      "date": {
-        "lastModified": "2015-03-31"
-      }
+      "effort": "small",
+      "impact": "open",
+      "type": "enhancement",
+      "skill": "intermediate"
     }
   ]
 }
