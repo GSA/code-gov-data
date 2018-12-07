@@ -1070,6 +1070,174 @@
       "effort": "small",
       "type": "enhancement",
       "skill": "intermediate"
+    },
+    {
+      "id": "Sequence View Zoomer",
+      "title": "Sequence View Zoomer",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/67",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
+    },
+    {
+      "id": "Stashes",
+      "title": "Stashes",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/64",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Option to use consensus as reference",
+      "title": "Option to use consensus as reference",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/59",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Import MEGA Files",
+      "title": "Import MEGA Files",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/47",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
+    },
+    {
+      "id": "Warning Message for IE Users",
+      "title": "Warning Message for IE Users ",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/40",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
+    },
+    {
+      "id": "Map Marker Clustering",
+      "title": "Map Marker Clustering",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/39",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "advanced"
+    },
+    {
+      "id": "User-provided Map Layers",
+      "title": "User-provided Map Layers",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/36",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "advanced"
+    },
+    {
+      "id": "Option to move Stats table to bottom-left and top-right corners",
+      "title": "Option to move Stats table to bottom-left and top-right corners ",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/35",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
+    },
+    {
+      "id": "Add Color Scheme Controls to Sequence View",
+      "title": "Add Color Scheme Controls to Sequence View",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/32",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Option to use first sequence in data as reference sequence",
+      "title": "Option to use first sequence in data as reference sequence",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/31",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Exporting Phylogenetic Tree SVG results in bizarre triangles",
+      "title": "Exporting Phylogenetic Tree SVG results in bizarre triangles",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/22",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "medium",
+      "type": "bug",
+      "skill": "advanced"
+    },
+    {
+      "id": "Bubble View using ad-hoc axis implementation",
+      "title": "Bubble View using ad-hoc axis implementation",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/CDCgov/MicrobeTrace/issues/17",
+      "agency": {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "beginner"
     }
   ]
 }
