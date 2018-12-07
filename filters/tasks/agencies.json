@@ -4,23 +4,15 @@
     "value": "CFPB"
   },
   {
-    "name": "Department of Labor",
-    "value": "DOL"
+    "name": "Department of Defense",
+    "value": "DOD"
+  },
+  {
+    "name": "Department of Energy",
+    "value": "DOE"
   },
   {
     "name": "General Services Administration",
     "value": "GSA"
-  },
-  {
-    "name": "National Aeronautics and Space Administration",
-    "value": "NASA"
-  },
-  {
-    "name": "National Security Agency",
-    "value": "NSA"
-  },
-  {
-    "name": "Social Security Administration",
-    "value": "SSA"
   }
 ]

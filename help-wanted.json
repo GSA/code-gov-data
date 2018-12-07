@@ -849,6 +849,227 @@
       "impact": "open",
       "type": "enhancement",
       "skill": "intermediate"
+    },
+    {
+      "id": "Replace Custom Syncers with Reselect",
+      "title": "Replace Custom Syncers with Reselect",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/114",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "advanced"
+    },
+    {
+      "id": "Center search results header on Open Tasks",
+      "title": "Center search results header on Open Tasks",
+      "languages": ["CSS", "JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/110",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "small",
+      "type": "bug",
+      "skill": "beginner"
+    },
+    {
+      "id": "Link should be inside an <li>",
+      "title": "Link should be inside an <li>",
+      "languages": ["CSS", "HTML", "JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/109",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "small",
+      "type": "bug",
+      "skill": "beginner"
+    },
+    {
+      "id": "Add alt text to home images",
+      "title": "Add alt text to home images",
+      "languages": ["HTML", "JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/108",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "small",
+      "type": "bug",
+      "skill": "beginner"
+    },
+    {
+      "id": "multilingual support?",
+      "title": "multilingual support?",
+      "languages": ["HTML", "JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/105",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Remove Automatic Upper-Casing for Menu Bar",
+      "title": "Remove Automatic Upper-Casing for Menu Bar",
+      "languages": ["CSS", "JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/104",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "On mobile, put filters in flyout/overlay",
+      "title": "On mobile, put filters in flyout/overlay",
+      "languages": ["CSS", "HTML", "JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/103",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "advanced"
+    },
+    {
+      "id": "Footnote Links Not Working",
+      "title": "Footnote Links Not Working",
+      "languages": ["HTML", "JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/102",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "medium",
+      "type": "bug",
+      "skill": "advanced"
+    },
+    {
+      "id": "Losing SideNav on About and Policy Guide Pages",
+      "title": "Losing SideNav on About and Policy Guide Pages",
+      "languages": ["HTML", "JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/99",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "medium",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Reduce Image Sizess",
+      "title": "Reduce Image Sizes",
+      "languages": ["JavaScript"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/87",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "intermediate"
+    },
+    {
+      "id": "IE: Home Area Dropdown Looks Wierd",
+      "title": "IE: Home Area Dropdown Looks Wierd",
+      "languages": ["CSS", "SCSS"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/71",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "small",
+      "type": "bug",
+      "skill": "intermediate"
+    },
+    {
+      "id": "On tablet, secondary page header not vertically centered",
+      "title": "On tablet, secondary page header not vertically centered",
+      "languages": ["CSS", "SCSS"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/27",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "small",
+      "type": "bug",
+      "skill": "intermediate"
+    },
+    {
+      "id": "Increase width of Data Quality Score corner area",
+      "title": "Increase width of Data Quality Score corner area",
+      "languages": ["CSS", "SCSS"],
+      "projectURL": "",
+      "issueURL": "https://github.com/GSA/code-gov-front-end/issues/8",
+      "agency": {
+        "name": "General Services Administration",
+        "acronym": "GSA"
+      },
+      "date": {
+        "lastModified": "2018-12-07T19:49:09Z"
+      },
+      "effort": "small",
+      "type": "enhancement",
+      "skill": "intermediate"
     }
   ]
 }

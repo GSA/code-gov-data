@@ -12,15 +12,11 @@
     "value": "JavaScript"
   },
   {
-    "name": "PHP",
-    "value": "PHP"
-  },
-  {
     "name": "Python",
     "value": "Python"
   },
   {
-    "name": "TypeScript",
-    "value": "TypeScript"
+    "name": "Ruby",
+    "value": "Ruby"
   }
 ]

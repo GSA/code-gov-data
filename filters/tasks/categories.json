@@ -1,10 +1,14 @@
 [
   {
-    "name": "Enhancement",
+    "name": "enhancement",
     "value": "enhancement"
   },
   {
-    "name": "Bug",
+    "name": "bug",
     "value": "bug"
+  },
+  {
+    "name": "content",
+    "value": "content"
   }
 ]
