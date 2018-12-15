@@ -1,16 +1,17 @@
 console.log('starting create_filters_data.js');
 
+const { get } = require("axios")
+
 const { getAgencies, getLanguages, getLicenses, sortByName } = require("./utils")
 
-const { CODE_GOV_API_KEY } = process.env;
+const { CODE_GOV_API_KEY, CODE_GOV_TASKS_URL } = process.env;
 
 const fs = require('fs');
 
 async function getTasks() {
-  return new Promise((resolve, reject) => {
-    const data = JSON.parse(fs.readFileSync('./help-wanted.json'))
-    resolve(data.items)
-  });
+  let tasksURL = CODE_GOV_TASKS_URL || 'https://api.code.gov/open-tasks?size=10000'
+  if (CODE_GOV_API_KEY) tasksURL += `&api_key=${CODE_GOV_API_KEY}`
+  return get(tasksURL).then(response => response.data.items)
 }
 
 function getCategories(tasks) {
@@ -21,7 +22,10 @@ function getCategories(tasks) {
       categories.add(taskType.trim());
     }
   });
-  return Array.from(categories).map(category => {
+
+  return Array.from(categories)
+  .sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1)
+  .map(category => {
     console.log("category:", category)
     return { name: category, value: category.toLowerCase() }
   });
@@ -32,6 +36,7 @@ async function generate() {
   const filters = {};
 
   const tasks = await getTasks();
+  console.log("tasks:", tasks.toString().substring(0, 500) + '...');
 
   filters.agencies = getAgencies(tasks);
   console.log("filters.agencies:", filters.agencies);

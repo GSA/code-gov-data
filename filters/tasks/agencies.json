@@ -1,9 +1,5 @@
 [
   {
-    "name": "Centers for Disease Control and Prevention",
-    "value": "CDC"
-  },
-  {
     "name": "Consumer Financial Protection Bureau",
     "value": "CFPB"
   },
@@ -14,6 +10,10 @@
   {
     "name": "Department of Energy",
     "value": "DOE"
+  },
+  {
+    "name": "Department of Health and Human Services",
+    "value": "HHS"
   },
   {
     "name": "General Services Administration",
