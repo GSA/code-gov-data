@@ -228,11 +228,11 @@
     "codeUrl": "https://www.va.gov/code.json",
     "fallback_file": "VA.json",
     "requirements": {
-      "agencyWidePolicy": 0,
-      "openSourceRequirement": 0,
-      "inventoryRequirement": 0,
+      "agencyWidePolicy": 0.5,
+      "openSourceRequirement": 1,
+      "inventoryRequirement": 1,
       "schemaFormat": 0.5,
-      "overallCompliance": 0
+      "overallCompliance": 0.75
     },
     "complianceDashboard": true
   }, {
@@ -260,9 +260,9 @@
     "requirements": {
       "agencyWidePolicy": 1,
       "openSourceRequirement": 1,
-      "inventoryRequirement": 0.5,
+      "inventoryRequirement": 1,
       "schemaFormat": 0.5,
-      "overallCompliance": 0
+      "overallCompliance": 1
     },
     "complianceDashboard": true
   }, {
