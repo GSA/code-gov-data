@@ -76,8 +76,8 @@
     "value": "MATLAB"
   },
   {
-    "name": "MongoDB",
-    "value": "MongoDB"
+    "name": "MySQL",
+    "value": "MySQL"
   },
   {
     "name": "Objective-C",
@@ -120,20 +120,12 @@
     "value": "Salt"
   },
   {
-    "name": "SAS",
-    "value": "SAS"
-  },
-  {
     "name": "SASS",
     "value": "SASS"
   },
   {
     "name": "Shell",
     "value": "Shell"
-  },
-  {
-    "name": "SourcePawn",
-    "value": "SourcePawn"
   },
   {
     "name": "SQL",
