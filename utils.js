@@ -23,20 +23,31 @@ const sortByName = (a, b) => {
   return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
 }
 
-function getUsageTypes(items) {
+function getUsageTypes() {
   return [
     { name: "Open Source", value: 'openSource' },
     { name: "Government-Wide Reuse", value: 'governmentWideReuse' }
   ]
 }
 
+function usageTypeFilter(items) {
+  const usageTypes = getUsageTypes().map((usageType) => {
+    return usageType.value;
+  });
+
+  return items.filter((item) => {
+    return item.permissions && usageTypes.includes(item.permissions.usageType)
+  });
+}
+
 function getAgencies(items) {
   const agencies = new Set();
 
-  items.forEach(item => {
+  usageTypeFilter(items).forEach(item => {
     const { acronym, name } = item.agency;
     if (acronym && name) {
       agencies.add(JSON.stringify({ 'name': name, 'value': acronym }));
+
     }
   });
 
@@ -46,7 +57,7 @@ function getAgencies(items) {
 function getLanguages(items) {
   const languages = new Set();
 
-  items.forEach(item => {
+  usageTypeFilter(items).forEach(item => {
     if (item.languages) {
       item.languages.forEach(language => {
         if (language) {
@@ -63,11 +74,10 @@ function getLanguages(items) {
   return Array.from(languages).map(JSON.parse).sort(sortByName);
 }
 
-
 function getLicenses(repos) {
   const licenses = new Set();
 
-  repos.forEach(repo => {
+  usageTypeFilter(repos).forEach(repo => {
     if (repo.permissions && repo.permissions.licenses) {
         if (Array.isArray(repo.permissions.licenses)) {
           repo.permissions.licenses.forEach(license => {
