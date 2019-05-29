@@ -40,24 +40,27 @@ function usageTypeFilter(items) {
   });
 }
 
-function getAgencies(items) {
+function getItemsArray(items, isTaskList) {
+  return isTaskList ? items : usageTypeFilter(items);
+}
+
+function getAgencies(items, isTaskList = false) {
   const agencies = new Set();
 
-  usageTypeFilter(items).forEach(item => {
+  getItemsArray(items, isTaskList).forEach(item => {
     const { acronym, name } = item.agency;
     if (acronym && name) {
       agencies.add(JSON.stringify({ 'name': name, 'value': acronym }));
-
     }
   });
 
   return Array.from(agencies).map(JSON.parse).sort(sortByName);
 }
 
-function getLanguages(items) {
+function getLanguages(items, isTaskList = false) {
   const languages = new Set();
 
-  usageTypeFilter(items).forEach(item => {
+  getItemsArray(items, isTaskList).forEach(item => {
     if (item.languages) {
       item.languages.forEach(language => {
         if (language) {
