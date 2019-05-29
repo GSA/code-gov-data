@@ -36,7 +36,7 @@ async function generate() {
   filters.languages = getLanguages(repos);
   filters.licenses = getLicenses(repos);
   console.log("filters.licenses:", filters.licenses);
-  filters.usageTypes = getUsageTypes(repos);
+  filters.usageTypes = getUsageTypes();
 
   fs.writeFileSync('filters/repos/all.json', JSON.stringify(filters), 'utf-8');
   Object.keys(filters).forEach(key => {
