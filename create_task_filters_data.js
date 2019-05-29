@@ -55,8 +55,6 @@ async function generate() {
     { name: "Large", value: "large" }
   ]
 
-
-
   fs.writeFileSync('filters/tasks/all.json', JSON.stringify(filters), 'utf-8');
   Object.keys(filters).forEach(key => {
     fs.writeFileSync(`filters/tasks/${key}.json`, JSON.stringify(filters[key], null, 2), 'utf-8');
@@ -64,4 +62,3 @@ async function generate() {
 }
 
 generate();
-
