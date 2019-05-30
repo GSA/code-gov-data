@@ -26,8 +26,9 @@ function getCategories(tasks) {
   return Array.from(categories)
   .sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1)
   .map(category => {
+    const name = category === 'good' ? 'good first issue' : category
     console.log("category:", category)
-    return { name: category, value: category.toLowerCase() }
+    return { name, value: category.toLowerCase() }
   });
 }
 
