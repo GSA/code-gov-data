@@ -4,10 +4,6 @@
     "value": "CFPB"
   },
   {
-    "name": "Department of Defense",
-    "value": "DOD"
-  },
-  {
     "name": "Department of Energy",
     "value": "DOE"
   },
@@ -18,9 +14,5 @@
   {
     "name": "General Services Administration",
     "value": "GSA"
-  },
-  {
-    "name": "National Security Agency",
-    "value": "NSA"
   }
 ]

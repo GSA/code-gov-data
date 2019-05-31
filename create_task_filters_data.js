@@ -26,8 +26,9 @@ function getCategories(tasks) {
   return Array.from(categories)
   .sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1)
   .map(category => {
+    const name = category === 'good' ? 'good first issue' : category
     console.log("category:", category)
-    return { name: category, value: category.toLowerCase() }
+    return { name, value: category.toLowerCase() }
   });
 }
 
@@ -38,11 +39,11 @@ async function generate() {
   const tasks = await getTasks();
   console.log("tasks:", tasks.toString().substring(0, 500) + '...');
 
-  filters.agencies = getAgencies(tasks);
+  filters.agencies = getAgencies(tasks, true);
   console.log("filters.agencies:", filters.agencies);
   filters.categories = getCategories(tasks);
   console.log("filters.categories:", filters.categories);
-  filters.languages = getLanguages(tasks);
+  filters.languages = getLanguages(tasks, true);
   console.log("filters.languages:", filters.languages);
   filters.skillLevels = [
     { name: "Beginner", value: "beginner" },
@@ -55,8 +56,6 @@ async function generate() {
     { name: "Large", value: "large" }
   ]
 
-
-
   fs.writeFileSync('filters/tasks/all.json', JSON.stringify(filters), 'utf-8');
   Object.keys(filters).forEach(key => {
     fs.writeFileSync(`filters/tasks/${key}.json`, JSON.stringify(filters[key], null, 2), 'utf-8');
@@ -64,4 +63,3 @@ async function generate() {
 }
 
 generate();
-
