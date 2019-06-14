@@ -1,4 +1,6 @@
 console.log('starting create_filters_data.js');
+const dotenv = require('dotenv');
+dotenv.config(); // needed to make node look for env vars in the .env file
 
 const { getAgencies, getLanguages, getLicenses, getUsageTypes, sortByName } = require("./utils")
 
