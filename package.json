@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/GSA/code-gov-data#readme",
   "devDependencies": {
-    "axios": "^0.18.0",
-    "spdx-license-list": "^4.1.0",
-    "dotenv": "^8.0.0"
+    "axios": "^0.18.1",
+    "dotenv": "^8.0.0",
+    "spdx-license-list": "^4.1.0"
   }
 }
