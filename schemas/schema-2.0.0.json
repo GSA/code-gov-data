@@ -104,9 +104,9 @@
           },
           "tags": {
             "type": "array",
+            "description": "An array of keywords that will be helpful in discovering and searching for the release.",
             "items": {
-              "type": "string",
-              "description": "An array of keywords that will be helpful in discovering and searching for the release."
+              "type": "string"
             }
           },
           "contact": {
