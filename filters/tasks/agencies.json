@@ -4,12 +4,12 @@
     "value": "CFPB"
   },
   {
-    "name": "Department of Defense",
-    "value": "DOD"
-  },
-  {
     "name": "Department of Energy",
     "value": "DOE"
+  },
+  {
+    "name": "Department of Health and Human Services",
+    "value": "HHS"
   },
   {
     "name": "General Services Administration",
