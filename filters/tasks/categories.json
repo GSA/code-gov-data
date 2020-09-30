@@ -4,6 +4,10 @@
     "value": "bug"
   },
   {
+    "name": "content",
+    "value": "content"
+  },
+  {
     "name": "enhancement",
     "value": "enhancement"
   },
