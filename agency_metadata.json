@@ -178,10 +178,10 @@
     "name": "Department of State",
     "acronym": "DOS",
     "website": "https://state.gov/",
-    "codeUrl": "https://www.state.gov/code.json",
+    "codeUrl": "https://www2.state.gov/code.json",
     "fallback_file": "DOS.json",
     "requirements": {
-      "agencyWidePolicy": 0,
+      "agencyWidePolicy": 1,
       "openSourceRequirement": 0,
       "inventoryRequirement": 0,
       "schemaFormat": 0.5,
